@@ -1,0 +1,10 @@
+
+    .box {
+        width: 100px;
+        height: 100px;
+        color: darkolivegreen;
+        border:  6px solid lightgreen;
+        overflow: scroll auto;
+
+       
+    }
