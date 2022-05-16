@@ -1,43 +1,14 @@
-
-    .boxes {
-        border: 5px solid darkgray;
-        position: relative;
-      
-    }
-
-    .box , .box1 , .box2 {
-        width: 100px;  
-        height: 100px;
-background-color: darkolivegreen;
-      
-    }
-    .box1
-    {
-
-        background-color: tomato;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-      
-    }
-    .box2 {
+.container {
+    border: 4px solid lightgoldenrodyellow;
+}
+    .box {
+        width: 6rem;
+        height: 6rem;
+        background-color: plum;
        
-        background-color: rgba(207, 124, 28, 0.747);
+      
     }
-     .tweet {
-       border: 3px solid lime;
-   }
-    .avatar {
-        width: 5rem;
-        height: 5rem;
-        background-color: rgb(235, 23, 16);
-        float: left;
-        margin-right: 0.5rem;
-
+    body {
+        margin: 10px; 
     }
 
-    .clear {
-        clear: both;
-    }
-  
