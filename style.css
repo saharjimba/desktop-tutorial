@@ -1,20 +1,22 @@
 .container {
-    border: 4px solid rgb(170, 233, 198);
-    display: flex;
-    flex-direction: row;
-    justify-content:center ;
-    align-items: flex-end;
-    height: 90vh;
+
+  display: grid;
+  border: 10px solid rgb(145, 206, 203);
+  grid-template: 100px auto 100px /  30fr, 70fr;   
+  justify-content:center;
+  gap: 30px;
 }
-    .box {
-        width: 6rem;
-        height: 6rem;
-        background-color: plum;
-        margin: 16px;
-       
-      
-    }
-    body {
-        margin: 10px; 
-    }
+
+.box {
+    height: 7rem;
+    width: 7rem;
+    background-color: aquamarine;
+}
+
+
+ 
+    
+    
+ 
+     
 
