@@ -1,13 +1,13 @@
 
 body {
   display: flex;
-  justify-content: center;
+    justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
 @keyframes pop {
-  0% {
+        0% {
     transform: scale(1);
   }
 25% {
