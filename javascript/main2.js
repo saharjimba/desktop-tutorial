@@ -19,7 +19,21 @@ if (Namber < 27 ) {
     {
         console.log(`${Name} is older.`);
 
-      
     }
   
+    function sum(num1,num2) {
+        var res;
+        res= num1 / num2
+        return res;
+    } 
+    var output = sum(40,2);
+    console.log (output);
 
+    function sum(num3,num4){
+        var res;
+        res= num3 + num4
+        return res; 
+    }
+    var output= sum(7,8)
+        console.log (output)
+ 
