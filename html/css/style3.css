@@ -86,11 +86,12 @@ a {
 }
 /*Badges*/
 .badge {
-    border-radius: 40px;
-    padding: 0.5rem 2rem;
-    font-weight: bold;
-    white-space: nowrap;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    font-weight: 600px;
     font-size: 2rem;
+    justify-content: center;
+    max-width: 300px;
 
 }
 .badge--primary {
@@ -111,6 +112,7 @@ a {
     list-style: none;
     padding-left: 0;
     color: var(--color-headings);
+    
 }
 .list--inline  .list__item {
     display: inline-block;
@@ -354,12 +356,25 @@ transition: color 0.3s;
     color: #fff;
     }
 
-.nav__toggler {
-    opacity: 0.5;
-} 
+
 .collapsible--expanded .nav__toggler{
     opacity: 1;
 
+}
+@media screen and (min-width:768px) {
+    .nav__list {
+        width: auto;
+        display: flex;
+        border:0px solid black;
+    }
+@media screen and (min-width:1024px) 
+{
+   .nav__list {
+    border-bottom:none;
+   } 
+}
+
+    
 }
 /*Hero*/
 
@@ -397,22 +412,27 @@ section {
     margin: 4rem auto;
     max-width: 670px;
 }
+.block__header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
 
 .block-domain__prices {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 60px, 30px;
     grid-template-rows: repeat(2, 6rem) ;
     font-size: 2rem;
     font-weight: 600;
     justify-items: center;
     margin: 0 auto;
+
+
 }
 @media screen and (min-width : 768px) {
     .block-domain__prices{
         grid-template-columns: repeat(auto-fit, minmax(10rem  ,1fr));
         font-size: 1rem;
-        
-
+     
     }
 }
 /*card*/
