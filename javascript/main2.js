@@ -29,11 +29,17 @@ if (Namber < 27 ) {
     var output = sum(40,2);
     console.log (output);
 
-    function sum(num3,num4){
+    function sum1(num3,num4){
         var res;
         res= num3 + num4
         return res; 
     }
-    var output= sum(7,8)
+    var output= sum1(7,8)
         console.log (output)
+
+        function send(){
+            var income, outcome;
+          income = document.getElementById("income").value;
+          outgo = document.getElementById("outgo").value;
+        }
  
