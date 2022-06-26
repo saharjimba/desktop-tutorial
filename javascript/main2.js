@@ -37,9 +37,28 @@ if (Namber < 27 ) {
     var output= sum1(7,8)
         console.log (output)
 
-        function send(){
-            var income, outcome;
+        function send () {
+            var income, outgo;
           income = document.getElementById("income").value;
           outgo = document.getElementById("outgo").value;
+          if (Number(income) > Number(outgo)) {
+            console.log ("income > outgo");
+          }
+        else if (Number(income) < Number(outgo)) {
+            console.log ("income < outgo");
+        }
+        else {
+            console.log ("income = outgo");
+        }
+        
         }
  
+        var profileInfo = ["Sahar",28,true,"aliabbasisaha7@gmail.com" ]
+       
+        //profileInfo.push("username");
+        //console.log(profileInfo);
+        //profileInfo.shift("username");
+        //profileInfo.pop();
+       //var show = profileInfo.indexOf(28)
+       //profileInfo[3]= "sahar aliabbasi"
+        console.log (profileInfo);
