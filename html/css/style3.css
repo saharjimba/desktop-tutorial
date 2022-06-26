@@ -166,6 +166,7 @@ a {
     background: #fff;
     color: var(--color-headings);
     border: 2px solid var(--color-headings);
+    align-items: left;
 }
 .btn--outline:hover {
    background: var(--color-headings);
@@ -481,9 +482,10 @@ width: 100%;
     background: var(--color-secoundary);
     width: 400px;
     height: 200px;
-   margin: 60px;
-   padding: 20px;
+   margin: 60px 30px;
+   padding: 20px 20px;
    border-radius: 10px 10px 0px 0px ;
+  
 
 }
 .plan__name{
@@ -497,9 +499,28 @@ width: 100%;
     font-size: 6rem;
     color: #fff;
 }
+.plan__billing-cycle{
+    color: #ccc;
+
+}
+.badge .badge--secoundary .badge--small{
+    padding: 0.5rem 1.5rem;
+    margin: 40px 20px;
+}
 
 .plan__description {
     color: #fff;
     align-items: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.card__body {
+    width: 400px;
+    height: 600px;
+    line-height: 1.5;
+    font-size: large;
+    background:rgba(223, 204, 33, 0.781) ;
+    border-radius:0 10px 10px 10px ;
 
+    
 }
