@@ -485,26 +485,38 @@ width: 100%;
 .card {
     background: var(--color-secoundary);
     width: 335px;
-   
    margin: 60px 30px;
    border-radius: 10px 10px 0px 0px ;
  
 }
+.card__popular {
+    background: var(--color-primary); 
+}
 
+.plan--popular .header__card {
+    position: relative;
+}
+.plan--popular .header__card 
+::before {
+    content: url(/images/popular.svg);
+    width: 40px;
+    position: absolute;
+    top: -6;
+    right: 5%;
+}
 
 .header__card{
     margin: 10px auto;
-
-    
-    
+     
 }
 
 .plan__name{
     font-size: 1.4rem;
     color: #fff;
     font-weight: 500;
-    border: 1px solid var(--color-secoundary);
-    border-radius: 10px;
+    padding: 10px auto;
+  
+
     margin: 4px;
 }
 .plan__price {
@@ -521,6 +533,7 @@ width: 100%;
 .badge .badge--secoundary .badge--small{
     
     margin: 40px 20px;
+    padding: 20px auto;
 }
 
 
@@ -529,7 +542,7 @@ width: 100%;
     font-weight: 300;
     letter-spacing: 1px;
     margin: 10px auto;
-    padding: auto;
+    padding: 20px;
    
    
 }
@@ -540,7 +553,7 @@ width: 100%;
     font-size: large;
     background: #fff;
     padding: 23.4px 22.5px; 
-    border: 2px solid gray;
+    border: 1px solid rgb(199, 230, 240);
     
 }
 
@@ -548,8 +561,4 @@ width: 100%;
     margin:50px 10px ;
     line-height: 1.5;
     font-size: 20px;
-}
-.popular {
-    width: 60px;
-    height:70px;
 }
