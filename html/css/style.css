@@ -1,0 +1,22 @@
+.container-fluid {
+
+    background: lightgreen;
+    color: #fff;
+   
+}
+
+.bg1 , .bg2 , .bg3 {
+    color: #fff;
+    font-size: 30px;
+}
+.bg1 {
+    background-color: aqua;
+    
+}
+
+.bg2 {
+    background-color: pink;
+}
+.bg3 {
+    background-color: lightsalmon;
+}
