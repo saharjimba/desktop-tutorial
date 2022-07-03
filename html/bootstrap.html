@@ -11,22 +11,119 @@
 
 </head>
 <body>
-    <div class="container-fluid">
-        <h2>my first bootstrap webpage</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div class="container-fluid mt-4">
+        <h2 class="text-center">my first bootstrap webpage</h2>
+        <div class="mt-4 p-5 bg4 text-white rounded">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Cupiditate sapiente deserunt repellat delectus quo blanditiis aspernatur? 
             Provident maiores animi illo et iusto, dolorum obcaecati, facere cum a
             , iure doloremque aut?</p>
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary btn-block">Full-width button</button>
+                <button type="button" class="btn btn-primary btn-block active">Full-width button</button>
+            </div>
+
+        </div>
+        
     </div>
+    <img src="/images/rainbow.webp" alt="colorful background" class="rounded mx-auto d-block" width="300px" height="200px">
+    <div class="container bg-black">
+        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam saepe aut facere 
+  ullam similique doloremque fuga iste suscipit sit aspernatur blanditiis
+     eaque debitis quaerat cumque, aliquid qui dolores harum quas.</p>
+     <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis eligendi magnam molestiae suscipit cum maxime, voluptates eum fugit eos iusto laudantium adipisci quasi tenetur pariatur qui tempore! Officia, doloremque.</p>
+    </div>
+    <p class="text-block-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in magni facere aut esse, distinctio ipsum est sequi corrupti? Molestiae dolor id voluptatem iusto maxime, dignissimos reprehenderit aut eaque velit.</p>
     <div class="container1 text-center pt-5">
         <div class="row">
-            <div class="col-lg-4 bg1 text-center">sample paragraph1</div>
-            <div class="col-lg-4 bg2">sample paragraph2</div>
-            <div class="col-lg-4 bg3">sample paragraph3</div>
+            <div class="col-sm-4 bg1">sample paragraph1</div>
+            <div class="col-md-5 bg2">sample paragraph2</div>
+            <div class="col-lg-3 bg3">sample paragraph3</div>
 
         </div>
     </div>
+    <div class="container mt-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nostrum voluptatem rem ipsum<mark> deleniti provident</mark>, reiciendis beatae, id quo rerum, esse iste consequuntur. Non aliquam amet, magni aspernatur quia quod!</p>
+        <h1 class="display-1">Bootstrap heading1</h1>
+        <h2 class="display-2">bootstrap heading1</h2>
+        <h3 class="display-4">bootstrap heading1</h3>
+        <h4 class="small"><small>bootstrap heading</small></h4>
+        <h5><mark>bootstrap</mark>heading1</h5>
+         <div class="alert alert-info">
+            <strong>SUCCESS</strong> This alert shows success color boxe.
+         </div>
+         <div class="alert alert-success"><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisiiure deserunt temporibus labore illum totam natus?</div>
+        <div class="container mt-3"> 
+          <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet consectetur
+                <pre>adipisicing elit.
+                     Minus dolorem
+             cupiditate similique quas ad praesentium,
+              iusto sit in impedit eos</pre>
+              <p> <abbr title="World Health Organization">WHO</abbr>, ipsum dolor sit amet consectetur adipisicing elit. Cum, debitis nihil vero sit repudiandae consequuntur qui, repellat, quibusdam magni pariatur hic nulla? Recusandae, doloribus accusamus? Hic ex totam aperiam quod?</p>
+             
+            velit reiciendis<code>consequuntur</code>saepe quod cum molestiae labore itaque <kbd>quasi</kbd>?</p>
+            <footer class="blockquote-footer">From WWF's website</footer>
+        </blockquote>
+
+      </div>
+      <div class="container lg-4">
+        <h1>description list</h1>
+        <p class="lead">this paragraph stands out</p>
+        <p class="text-center">the dl elements indicates....</p>
+        <dl>
+            <dt>coffe tea</dt>
+            <dd>-warm and black drinking</dd>
+            <dt> milk water</dt>
+            <dd>-cold drinking</dd>
+        </dl>
+      </div>
+        
+    </div>
+
+    <div class="container mt-4">
+        <h3>TYPOLOGY</h3>
+        <ul class="list-unstyled">
+            <li>vegtables</li>
+            <li>friuts</li>
+            <li>warm foods</li>
+            <li>drinking</li>
+        </ul>
+    </div>
+
+    <div class=" container button mt-3"> 
+    <button type="button" class="btn">basic</button>
+     <div class="btn-group">
+    <button type="button" class="btn btn-primary">primary</button>
+    <ul class="dropdown-menu">
+        <li> <a class="dropdown-item" href="#">sign in</a></li>
+        <li> <a class="dropdown-item" href="#">sign up</a></li>
+    </ul>
+    <button type="button" class="btn btn-secondary">loading</button>
+    <button type="button" class="btn btn-danger">delete</button>
+        </div>
+    
+    <button type="button" class="btn btn-warning">warning</button>
+
+    <div class="container mt-3">
+        <button type="button" class="btn btn-success">Button</button>
+        <a href="#" class="btn btn-warning">warning</a>
+        <input type="submit" class="btn btn-success" value="Submit button">
+        <button type="button" class="btn btn-outline-info">Info</button>
+
+        <button type="button" class="btn btn-primary btn-sm">
+             <span class="spinner-grow spinner-grow-sm"></span>loading...</button>
+
+        <button type="button" class="btn btn-success btn-md" disabled>
+            <span class="spinner-border spinner-border-sm"></span>
+           loading...</button>
+    </div>
+</div>
+<div class="container mt-4">
+    <h1>examle for heading with badge <span class="badge bg-secondary">New</span></h1>
+    <h2>heading2 <span class="badge bg-secondary">New</span></h2>
+    <h3>heading3 <span class="badge bg-secondary">10% off</span></h3>
+</div>
+   
 </body>
-
-
+</html>
