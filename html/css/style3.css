@@ -491,13 +491,15 @@ width: 100%;
 .plan--popular .header__card {
     position: relative;
 }
-.plan--popular .header__card 
-::before {
+
+
+.plan--popular .header__card ::before {
     content: url(/images/popular.svg);
-    width: 40px;
+    display: inline-block;
     position: absolute;
-    top: -6;
+    top: -5;
     right: 5%;
+
 }
 .plan__description__popular {
     color: #fff;
@@ -562,11 +564,11 @@ width: 100%;
     line-height: 1.5;
     font-size: 20px;
 }
-
+.popular_labbel{
+    width: 40px;
+    height: 70px;
+    align-items: left;
+}
 /*Plans Block*/
 
-.block-plan {
-   display: grid;
-   
 
-}

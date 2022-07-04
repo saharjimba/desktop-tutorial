@@ -1,59 +1,75 @@
 <!DOCTYPE html> 
-<html>
+<html lang="en">
 
-    <head>
-      <link rel="stylesheet" href="./css/style1.css">
-     
-    </head>
+ <head>
+  <title class="title">Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+ <link rel="stylesheet" href="./css/style1.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
     <body>
-      <article>
-         <table>
+      <div class="container mt-4 table-responsive" data-aos="fade-down-right">
+          <div class="table-responsive">
+            <table class="table table-striped table-bordered">
 
-           <thead> 
-               <tr>
-              <th>Country</th>
-              <th>OrderID</th>
-              <th>Order Amount</th>
-            </tr>
-          </thead>
-     
-           <tbody>
-              <tr>
-              <td>USA</td>
-            <td>1000</td>
-            <td>$1,300</td>
-          </tr>
-          <tr>
-            <td>USA</td>
-            <td>1001</td>
-            <td>$700</td>
-          </tr>
-          <tr>
-            <td>CA</td>
-            <td>1002</td>
-            <td>$2,000</td>
-          </tr>
-          <tr>
-          <td>CA</td>
-           <td>1003</td>
-           <td>$1,000</td>
-          </tr>
-        </tbody>
-
-             <tfoot>
-             <td colspan="2">Total</td>
-             <td>$5,000</td>
-           </tfoot>
-          </table>
-        </article>
+              <thead class="table table-bordered"> 
+                  <tr>
+                 <th>Country</th>
+                 <th>OrderID</th>
+                 <th>Order Amount</th>
+               </tr>
+             </thead>
+        
+              <tbody>
+                 <tr>
+                 <td>USA</td>
+               <td>1000</td>
+               <td>$1,300</td>
+             </tr>
+             <tr>
+               <td>USA</td>
+               <td>1001</td>
+               <td>$700</td>
+             </tr>
+             <tr>
+               <td>CA</td>
+               <td>1002</td>
+               <td>$2,000</td>
+             </tr>
+             <tr>
+             <td>CA</td>
+              <td>1003</td>
+              <td>$1,000</td>
+             </tr>
+           </tbody>
+   
+                <tfoot>
+                <td colspan="2">Total</td>
+                <td>$5,000</td>
+              </tfoot>
+             </table>
+           
+          </div>
+        
+      </div>
+    
          
          
-          <div class="box"></div>
+          <div class="box" data-aos="fade-up"
+          ></div>
           
-            <div class="box"></div>
+            <div class="box" data-aos="fade-right" ></div>
 
  
     </body>
   
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </html>
