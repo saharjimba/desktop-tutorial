@@ -1,0 +1,40 @@
+:root {
+    --color-primary:  #ed0025;
+    --color-secondary:#1565c8;
+    --color-darktext: #1c1c28;
+    --color-graytext: #555770;
+    --color-graylight:#8f90a6;
+}
+body {
+    margin: 0px;
+}
+
+/*NAVIGAION BAR*/
+
+.img-logo {
+    position: absolute;
+    width: 95px;
+    height: 35px;
+   margin-top: 21px;
+   margin-left: 100px;
+    
+}
+.bars {
+    width: 40px;
+    height: 40px;
+    padding-right: 19px;
+}
+
+.nav__bar {
+    display: flex;
+   flex-direction: row;
+   font-size: 12px;
+
+}
+
+
+.nav_li {
+   
+    margin: 20px;
+    
+}
