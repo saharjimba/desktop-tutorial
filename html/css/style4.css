@@ -6,35 +6,76 @@
     --color-graylight:#8f90a6;
 }
 body {
-    margin: 0px;
+  background:url(/images/Rectangle\ 3.png);
 }
 
 /*NAVIGAION BAR*/
 
+.navbar {
+    background-color: white;
+} 
+
 .img-logo {
-    position: absolute;
+   display: flex;
     width: 95px;
-    height: 35px;
-   margin-top: 21px;
-   margin-left: 100px;
+    height: 35px;  
     
 }
+
 .bars {
     width: 40px;
     height: 40px;
     padding-right: 19px;
 }
 
+.nav__content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
 .nav__bar {
     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
    flex-direction: row;
-   font-size: 12px;
+   justify-content: space-between;
+    width: 100%;
+}
+.menu-ul {
+    display: flex;
+    flex-direction: row;
+}
+.menuu-li {
+ width: 200px;
+}
+.home_page {
+   margin: 20px 20px;
+}
+.pizza {
+  margin-top:19px;
+  width: 463px;
+  height: 432px;
+}
+
+.text__colum {
+    margin: 19px auto;
+}
+
+.btn__menu {
+    margin-left: 189px;
+    margin-bottom: 94px;
 
 }
 
+.home_page1 {
+    margin:176px 20px 220px 165px  ;
+  
+}
 
-.nav_li {
-   
-    margin: 20px;
-    
+.motor {
+    width:300px;
+    height: 300px;
 }

@@ -1,12 +1,11 @@
-var PersonName ="SAHAR";
-var PersonAge =27;
+
 
 /*
 console.log (PersonName);
 console.log (PersonAge);
 */
 /*console.log (`name: ${PersonName} age: ${PersonAge}`);*/
-
+/*
 var Namber =27
 var Name   ="sahar"
 if (Namber < 27 ) {
@@ -74,18 +73,40 @@ if (Namber < 27 ) {
       //  var show = profileInfo["job"];
        // console.log(show);
         //console.log(profileInfo);
-        
- var profileInfo = ["Sahar" , "sahar.aliabbasi@gmail.com" , 27 , "designer"];
-// profileInfo[1]="conect us";
-//profileInfo.pop();
-//profileInfo.shift("sahar");
-//profileInfo.unshift(27);
-profileInfo.push("sahar");
- console.log(profileInfo);
+/*
+var profileInfo = {
+  Name:"sahar",
+  phone:09146590378,
+  adress:"tabriz",
+  age: function(yearofbirth) {
+    return 2022 - yearofbirth;
+  }
 
- var profileInfo = {
-   Name: "ravi",
-   emnail:"ravi.ojha@gmail.com",
-   age:28,
-   job: "SEO wordpress designer",}
-  console.log(profileInfo);
+};
+
+console.log(profileInfo.age(1994));
+   
+
+var i;
+for (i = 0; i <= 10; i++) {
+  console.log(i);
+};
+
+var skills = ["html","css" ,"bootstrap" ,"javascript"];
+for (i=0; i < 4; i++){
+  console.log(skills[i]);
+  if (i===2){
+    break;
+  }
+} */
+
+ function send () {   
+  var i, j, input;
+  input = document.getElementById("input").value;
+  for (i=0 ; i < input; i++) {
+  document.write("<br>");
+  for (j=0 ; j < i ; j++ ) {
+    document.write("@")
+  }
+}
+ }

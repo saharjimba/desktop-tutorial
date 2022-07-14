@@ -25,8 +25,16 @@
 .bg4 {
     background-color: aqua;
 }
-.progress-bar {
-    width: 40%;
-    background-repeat: no-repeat;
-    background-position: top right;
+
+.progress {
+    margin: 10px 10px;
+}
+.spiner{
+   
+    color: aquamarine;
+}
+
+.colory {
+    width: 400px;
+    height: 250px;
 }
