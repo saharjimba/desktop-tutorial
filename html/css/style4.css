@@ -7,7 +7,13 @@
 }
 body {
   background:url(/images/Rectangle\ 3.png);
+
 }
+p {
+    width: 417px;
+    height:270px;
+}
+
 
 /*NAVIGAION BAR*/
 
@@ -44,6 +50,7 @@ body {
    justify-content: space-between;
     width: 100%;
 }
+
 .menu-ul {
     display: flex;
     flex-direction: row;
@@ -51,31 +58,44 @@ body {
 .menuu-li {
  width: 200px;
 }
+/*home page 1,  2*/
+
 .home_page {
-   margin: 20px 20px;
+   margin: 60px 100px;
+}
+.homep_p {
+    height:250px;
 }
 .pizza {
   margin-top:19px;
   width: 463px;
   height: 432px;
 }
-
+.food {
+    width:417px;
+    height: 270px;
+}
 .text__colum {
     margin: 19px auto;
 }
 
 .btn__menu {
-    margin-left: 189px;
+   
     margin-bottom: 94px;
 
 }
 
 .home_page1 {
-    margin:176px 20px 220px 165px  ;
-  
+    margin:176px 165px;
+
 }
 
 .motor {
     width:300px;
     height: 300px;
+}
+
+.home-page2 {
+    margin:286px 265px;
+   
 }
